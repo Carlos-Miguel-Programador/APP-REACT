@@ -17,7 +17,8 @@ export default function Home() {
                 });
 
                 console.log(allDiv.length);
-                datas.map(element => {
+                
+                Array(datas).map(element => {
                     const type_ = document.createElement('p');
                     const money_ = document.createElement('p');
                     const title_ = document.createElement('h3');                     
