@@ -1,0 +1,52 @@
+input{
+    width: 30%;
+    height: 35px;
+    text-align: start;
+    text-indent: 13px;
+    border: 1px solid black;
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.link{
+    color: black;
+}
+
+body{
+    color: black;
+}
+
+button{
+    width: 15%;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid white;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+
+button:active{
+    background-color: rgb(65, 65, 65);
+}
+
+select{
+    width: 30%;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+}
+
+.sucesso{
+    color: green;
+}
+
+.erro{
+    color: rgb(255, 149, 0);
+}

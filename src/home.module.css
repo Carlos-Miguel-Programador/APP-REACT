@@ -1,0 +1,23 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    flex-wrap: wrap;
+}
+
+section>div{
+    width: 20%;
+    height: 200px;
+    background-color: rgb(229, 227, 227);
+    border: none;
+    border-radius: 7px;
+    margin-right: 10px;    
+    margin-bottom: 10px;
+    cursor: pointer;
+}

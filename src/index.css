@@ -1,0 +1,17 @@
+:root {
+  width: 100%;
+}
+
+@media(max-width: 500px){
+  header>img{
+    padding-right: 100%;
+
+    header{
+      height: 200px;
+    }
+  }
+  header{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
